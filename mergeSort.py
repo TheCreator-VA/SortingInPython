@@ -1,5 +1,5 @@
 def mergeSort(arr, n):
-    if n>1:
+    if n>1:                     # Divide the array in 2 parts until the length of array is 1
         arr1 = arr[:int(n/2)]
         arr2 = arr[int(n/2):]
         mergeSort(arr1,len(arr1))
