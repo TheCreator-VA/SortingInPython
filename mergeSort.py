@@ -10,7 +10,7 @@ def mergeSort(arr, n):
         k=0
         j=0
         while i<len(arr1) and j<len(arr2):
-            if arr1[i]<arr2[j]:
+            if arr1[i]<=arr2[j]:
                 arr[k] = arr1[i]
                 k+=1
                 i+=1    
